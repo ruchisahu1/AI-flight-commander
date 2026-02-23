@@ -29,7 +29,7 @@ export default function IntroPage() {
               <Plane className="w-5 h-5 md:w-6 md:h-6 text-primary-foreground" />
             </div>
             <h1 className="text-xl md:text-2xl lg:text-3xl font-display font-bold text-primary">
-              CO-PILOT AI
+              AI Pilot Officer
             </h1>
           </div>
           <p className="text-xs md:text-sm text-secondary font-display tracking-wider">
