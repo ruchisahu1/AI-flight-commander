@@ -24,10 +24,7 @@ export default function FinalPage() {
   };
 
   const handleExit = () => {
-    // Close the window or navigate to a goodbye page
-    window.close();
-    // Fallback if window.close() doesn't work (most browsers block it)
-    navigate('/');
+    window.location.href = "https://missionx.junkbot.co/user/gamified";
   };
 
   // Calculate performance rating
@@ -185,7 +182,7 @@ export default function FinalPage() {
                 className="btn-cockpit flex items-center justify-center gap-2 border-muted-foreground/50"
               >
                 <LogOut className="w-4 h-4" />
-                Exit
+                Home
               </button>
             </div>
           </div>
